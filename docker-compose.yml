@@ -1,0 +1,10 @@
+nginx:
+        image: nginx:latest
+        container_name: nginx-container
+        ports: 
+          - 80:80
+php:
+        image: php:latest
+        container_name: php-container
+        ports:
+            - 8080:80
